@@ -1,7 +1,7 @@
 <b>
 Revision
 </b>
-<l1>
-Median of two sorted arrays
-Manacher's algorithm
-<l1>
+
+1.Median of two sorted arrays
+2.Manacher's algorithm
+
