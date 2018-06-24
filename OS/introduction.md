@@ -65,7 +65,7 @@ So at any moment, the processor is in one of these states -
 Even when it is idle, it executes an idle process in the process context.
 
 Kernel Design -  Monolithic vs Microkernel
-> Monolithic - implemented entirely as single large processes running in a single address space. All services exist
+> Monolithic - implemented entirely as single large process running in a single address space. All services exist
 > and operate in a single kernel address space. Communication between components is quicker and the design is simple. This
 > means better performance. Most Unix varieties are monolithic.
 > Microkernels - functionality is broken down into separate processes called servers. Only the servers absolutely required are
