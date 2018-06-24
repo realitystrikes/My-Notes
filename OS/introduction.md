@@ -73,7 +73,7 @@ Kernel Design -  Monolithic vs Microkernel
 > Communication is via IPCs. The failure of one server does not mean failure of the entire system.
 > Modularity allows swapping of subsystems. IPCs also contribute to latencies. And, switching between kernel and user space
 > frequently is expensive. So most servers are made to run in kernel space, which defeats the purpose of microkernels. Windows
-> NT and mach (OS X is based on this) are examples o microkernels.
+> NT and mach (OS X is based on this) are examples of microkernels.
 > Linux is a monolithic kernel but borrows good things from microkernels. It has modular design with kernel pre-emption, support
 > for kernel threads and the ability to dynamically load modules into the kernel. Everything runs in kernel mode with direct
 > function invocation and not message passing. So it is performant.
