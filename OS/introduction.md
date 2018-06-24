@@ -61,6 +61,7 @@ So at any moment, the processor is in one of these states -
 1. Kernel space - process context
 2. Kernel space - interrupt context
 3. User space
+
 Even when it is idle, it executes an idle process in the process context.
 
 Kernel Design -  Monolithic vs Microkernel
